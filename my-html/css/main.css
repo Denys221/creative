@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6 {
    font-family: outfit-c;
 }
 
+/* will-change  - усторонення ошибок*/
+
+.hero, .main-header, .gallery__left, .gallery__right{
+   will-change: transform;
+}
+
 body {
    background-image: url(../img/bg.jpg);
    background-size: 50px;
